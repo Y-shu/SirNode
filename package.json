@@ -1,0 +1,32 @@
+{
+  "name": "mean_app",
+  "version": "1.0.0",
+  "description": "learning the nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nyc --reporter=html --reporter=text mocha --recursive --timeout 15000"
+  },
+  "author": "Wahid Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "config": "^2.0.1",
+    "cors": "^2.8.4",
+    "expect": "^23.6.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.6.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
+}
